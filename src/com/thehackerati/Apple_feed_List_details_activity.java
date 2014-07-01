@@ -50,6 +50,7 @@ public class Apple_feed_List_details_activity extends Activity{
 		imgthumb = (ImageView)findViewById(R.id.imgthumb);
 		
 		tvname.setSelected(true);
+		tvartist.setSelected(true);
 		tvname.setText(custom_Object.name);
 		tvartist.setText(custom_Object.artist);
 		tvprice.setText(custom_Object.price);
