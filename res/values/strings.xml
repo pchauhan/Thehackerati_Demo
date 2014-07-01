@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thehackerati_Demo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <color name="themebackgroundcolor">#272727</color>
+    <color name="themetextcolornormal">#ffffff</color>
+    <color name="themetextcolorhighlighted">#EB6217</color>
+     <color name="themetextcolorblue">#0F7BD8</color>
+
+    <string name="pleasewait">Please wait...</string>
+    <string name="no_network_connection_toast">Network not available</string>
+
+</resources>

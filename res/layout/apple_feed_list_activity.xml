@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/themebackgroundcolor"
+    android:orientation="vertical"
+    android:weightSum="10" >
+
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:background="@color/themetextcolorblue"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listViewUser"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/tvfavorite"
+        android:layout_below="@+id/tvtitle"
+        android:cacheColorHint="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:fadingEdge="none"
+        android:listSelector="@android:color/transparent"
+        android:overScrollMode="never" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/tvfavorite"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/favorite_selector"
+        android:gravity="center"
+        android:text="My Favorite List"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
